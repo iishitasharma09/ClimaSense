@@ -112,6 +112,7 @@ export function Navbar({
                   className="w-full px-4 py-2 pl-9 pr-8 rounded-lg bg-muted/50 border border-border/50 focus:border-primary/50 focus:outline-none focus:ring-2 focus:ring-primary/20 transition-all text-sm"
                   aria-label="Search location"
                   autoComplete="off"
+                  suppressHydrationWarning
                 />
                 <Search className="absolute left-2.5 top-2.5 w-4 h-4 text-muted-foreground pointer-events-none" />
                 {searchValue && (
